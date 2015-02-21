@@ -1,4 +1,4 @@
 # wp-plugin-test
 
-~Current Version:0.0.1~
+~Current Version:0.0.2~
 
