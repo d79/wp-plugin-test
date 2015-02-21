@@ -3,7 +3,7 @@
  * Plugin Name: WP Plugin Test by D79
  * Plugin URI: https://github.com/d79/wp-plugin-test
  * Description: A brief description of the plugin.
- * Version: 0.0.4
+ * Version: 0.0.5
  * Author: D79
  * Text Domain: Optional. Plugin's text domain for localization. Example: mytextdomain
  * License: GPL2
@@ -11,8 +11,8 @@
 
 function d79_test_admin_notice(){
 	echo '
-		<div class="error">
-			<p>I am a little red notice.</p>
+		<div class="updated">
+			<p>I am a little green notice.</p>
 		</div>
 	';
 }
