@@ -28,7 +28,7 @@ if (is_admin()) {
 		'raw_url' => 'https://raw.githubusercontent.com/d79/wp-plugin-test/master',
 		'github_url' => 'https://github.com/d79/wp-plugin-test',
 		'zip_url' => 'https://github.com/d79/wp-plugin-test/zipball/master',
-		'sslverify' => false,
+		'sslverify' => true,
 		'requires' => '3.0',
 		'tested' => '4.1',
 		'readme' => 'README.md',
