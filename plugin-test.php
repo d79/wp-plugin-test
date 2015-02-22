@@ -1,4 +1,4 @@
-<?php
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 /**
  * Plugin Name: WP Plugin Test by D79
  * Plugin URI: https://github.com/d79/wp-plugin-test
