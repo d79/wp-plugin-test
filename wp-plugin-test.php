@@ -3,7 +3,7 @@
  * Plugin Name: WP Plugin Test by D79
  * Plugin URI: https://github.com/d79/wp-plugin-test
  * Description: A brief description of the plugin.
- * Version: 0.0.6
+ * Version: 0.0.7
  * Author: D79
  * Text Domain: Optional. Plugin's text domain for localization. Example: mytextdomain
  * License: GPL2
@@ -11,8 +11,8 @@
 
 function d79_test_admin_notice(){
 	echo '
-		<div class="update-nag">
-			<p>I am a not so little yellow notice.</p>
+		<div class="updated">
+			<p>I am a little green notice again.</p>
 		</div>
 	';
 }
@@ -28,7 +28,7 @@ if (is_admin()) {
 		'raw_url' => 'https://raw.githubusercontent.com/d79/wp-plugin-test/master',
 		'github_url' => 'https://github.com/d79/wp-plugin-test',
 		'zip_url' => 'https://github.com/d79/wp-plugin-test/zipball/master',
-		'sslverify' => true,
+		'sslverify' => false,
 		'requires' => '3.0',
 		'tested' => '4.1',
 		'readme' => 'README.md',
